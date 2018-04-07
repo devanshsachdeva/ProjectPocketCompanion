@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.error404.ppc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Project"
+            android:label="@string/title_activity_project"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.error404.ppc.Home" />
+        </activity>
+        <activity android:name=".Project1" />
+        <activity android:name=".Project2" />
+        <activity android:name=".Project3" />
+        <activity
+            android:name=".PendingTask"
+            android:label="@string/title_activity_pending_task"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.error404.ppc.Home" />
+        </activity>
+        <activity
+            android:name=".Resources"
+            android:label="@string/title_activity_resources"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.error404.ppc.Home" />
+        </activity>
+        <activity
+            android:name=".ProjectDiscussion"
+            android:label="@string/title_activity_project_discussion"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.error404.ppc.Home" />
+        </activity>
+        <activity
+            android:name=".Sponsors"
+            android:label="@string/title_activity_sponsors"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.error404.ppc.Home" />
+        </activity>
+        <activity
+            android:name=".Meetings"
+            android:label="@string/title_activity_meetings"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.error404.ppc.Home" />
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.error404.ppc.Home" />
+        </activity>
+    </application>
+
+</manifest>

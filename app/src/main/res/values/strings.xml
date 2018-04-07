@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProjectPocket Companion</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_project">Project</string>
+    <string name="title_activity_pending_task">Pending Task</string>
+    <string name="title_activity_resources">Resources</string>
+    <string name="title_activity_project_discussion">Project Discussion</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    <string name="title_activity_meetings">Scheduled Meetings</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+</resources>

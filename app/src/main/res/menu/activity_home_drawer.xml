@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/project"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Project" />
+        <item
+            android:id="@+id/pending"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Pending Tasks" />
+        <item
+            android:id="@+id/resources"
+            android:icon="@drawable/ic_leak_add_black_24dp"
+            android:title="Resources" />
+        <item
+            android:id="@+id/projectdiss"
+            android:icon="@drawable/ic_code_black_24dp"
+            android:title="Project Discussions" />
+        <item
+            android:id="@+id/sponsor"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Sponsors" />
+        <item
+            android:id="@+id/meetings"
+            android:icon="@drawable/ic_timer_black_24dp"
+            android:title="Scheduled Meetings" />
+    </group>
+
+    <item android:title="About Us">
+        <menu>
+
+            <item
+                android:id="@+id/call"
+                android:icon="@drawable/ic_local_phone_black_24dp"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
